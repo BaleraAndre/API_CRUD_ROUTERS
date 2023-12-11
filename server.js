@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 app.use('/', pessoasRoutes);
 
-//8
+//9
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
