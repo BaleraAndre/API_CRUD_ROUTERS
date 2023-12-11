@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const pessoasDAO = require('./PessoasDAO');
 
-//9
+//8
 router.get('/pessoas', (req, res) => {
   res.json(pessoasDAO.getPessoas());
 });
